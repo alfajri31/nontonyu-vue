@@ -1,7 +1,6 @@
-
 <template>
-  <Homepage></Homepage>
+  <main>
+    <RouterView />
+  </main>
 </template>
-<script setup>
-import Homepage from "@/views/Homepage.vue";
-</script>
+
