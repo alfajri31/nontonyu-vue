@@ -52,39 +52,38 @@
       <!--thumbnails-->
       <div class="row mt-5">
         <div class="col-md-2 col-sm-6 col-6">
-          <a>
+          <router-link to="detail">
             <img class="card-img-top" src="/images/onepiece.png">
-          </a>
+          </router-link>
         </div>
         <div class="col-md-2 col-sm-6 col-6">
-          <a>
+          <router-link to="detail">
             <img class="card-img-top" src="/images/boruto.png">
-          </a>
+          </router-link>
         </div>
         <div class="col-md-2 col-xs-6 col-6">
-          <a>
+          <router-link to="detail">
             <img class="card-img-top" src="/images/spyfamiliy.png">
-          </a>
+          </router-link>
         </div>
         <div class="col-md-2 col-xs-6 col-6">
-          <a>
+          <router-link to="detail">
             <img class="card-img-top" src="/images/aot.png">
-          </a>
+          </router-link>
         </div>
         <div class="col-md-2 col-sm-6 col-6">
-          <a>
+          <router-link to="detail">
             <img class="card-img-top" src="/images/tsubasa.png">
-          </a>
+          </router-link>
         </div>
         <div class="col-md-2 col-sm-6 col-6">
-          <a>
+          <router-link to="detail">
             <img class="card-img-top" src="/images/aoashi.png">
-          </a>
+          </router-link>
         </div>
       </div>
     </div>
   </section>
 </template>
 <script setup>
-import Headbar from "@/components/Headbar.vue";
 </script>
